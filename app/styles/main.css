@@ -73,5 +73,9 @@ body{
 
 #footer{
     background-color:#2e3234;
-    height:200px;
+    min-height:200px;
+    color:#999;
+    font-size:x-small;
+    padding:30px;
+    font-style:italic;
 }
