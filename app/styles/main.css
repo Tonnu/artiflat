@@ -1,8 +1,22 @@
+body{
+    //background: url("../images/arti-bg.PNG") center;
+    //bacgkround-repeat:repeat-x;
+}
+
+
 #header{
     font-family: "Futura", "Avenir", "Helvetica Nueue";
     background-color:#2b303b;
     padding:10px;
     height:350px;
+    background: url("../images/renovatie-flat.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header-img{
 
 }
 
@@ -13,6 +27,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    background-image: url("../images/arti-bg.png") center;
+
 }
 
 #header h1{
@@ -46,9 +63,15 @@
 
 #main-content{
     color:#999;
+    border-bottom: 2px solid #eadfd2;
 }   
 
 #chapter-title{
     border-bottom : 2px solid #eadfd2;
     color:black;
+}
+
+#footer{
+    background-color:#2e3234;
+    height:200px;
 }
