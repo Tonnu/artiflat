@@ -14,6 +14,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 #header-img{
@@ -33,19 +34,20 @@ body{
 }
 
 #header h1{
-    font-size:xx-large;
     text-align: center;
     font-family: "Futura", "Avenir", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
-    font-size: 45pt;
     font-weight: 900;
-    margin: 30px 0px 30px 0px;
+    margin: 50px 0px 30px 0px;
     padding: 20px;
     border: 2px solid #fff;
     background-color: #3a404c;
     display: block;
     text-decoration: none; 
+    
+    font-size: 5.5vh;
+
 }
 
 .v-center{
