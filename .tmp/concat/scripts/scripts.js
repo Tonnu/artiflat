@@ -10,6 +10,9 @@ angular.module('artiflatApp', [
     $routeProvider.when('/', {
       templateUrl: 'views/main.html',
       controller: 'MainCtrl'
+    }).when('/hoofdstukken', {
+      templateUrl: 'views/hoofdstukken.html',
+      controller: 'MainCtrl'
     }).otherwise({ redirectTo: '/' });
   }
 ]);
