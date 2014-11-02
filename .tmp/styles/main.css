@@ -43,15 +43,28 @@ body {
   height: 120px;
 }
 
+#main-content > h2 {
+  color: #414141;
+  font-style: italic;
+  text-align: center;
+  padding-top: 25px;
+  letter-spacing: 1.5px;
+}
+
 .content-header-image {
   position: relative;
   left: 45%;
   -webkit-transform: translateY(55%);
   transform: translateY(55%);
+  width: 100%;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .main-content-text {
   padding: 50px;
+  padding-top: 0px;
+  margin-top: 5%;
 }
 
 #footer {
@@ -87,6 +100,16 @@ body {
   #main-content {
     font-size: 1.5em;
   }
+
+  .content-header-image {
+    position: relative;
+    left: 44%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+    width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -95,12 +118,30 @@ body {
   #header {
     height: 50vh;
   }
+
+  .content-header-image {
+    position: relative;
+    left: 44%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+    width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+  }
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px) {
-
+  .content-header-image {
+    position: relative;
+    left: 44%;
+    -webkit-transform: translateY(65%);
+    transform: translateY(65%);
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -133,7 +174,7 @@ body {
   }
 
   #main-content {
-    font-size: 1.7em;
+    font-size: 1.55em;
   }
 
   .main-content-header {
