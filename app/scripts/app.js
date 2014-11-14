@@ -1,11 +1,12 @@
 'use strict';
+/* global app: true */
 
-angular
-  .module('artiflatApp', [
+
+var app = angular.module('artiflatApp', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -15,6 +16,10 @@ angular
       })
       .when('/hoofdstukken', {
         templateUrl: 'views/hoofdstukken.html',
+        controller: 'MainCtrl'
+      })
+      .when('hoofdstuk/:hoofdstukId', {
+        templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
       .otherwise({

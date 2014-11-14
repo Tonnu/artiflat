@@ -1,10 +1,12 @@
 'use strict';
 
-angular.module('artiflatApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+app.controller('MainCtrl', function ($scope, $routeParams, $location) {
+	$scope.hoofdstuk = $routeParams.hoofdstukId;
+	$scope.hello = "hello";
+
+	$scope.go = function ( id ) {
+		$location.path( 'hoofdstuk/'+id );
+		console.log($scope.hoofdstuk);
+	};
+
+});
