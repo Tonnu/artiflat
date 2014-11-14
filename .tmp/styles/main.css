@@ -46,6 +46,7 @@ body {
 .hoofdstukken-overview {
   margin-top: 2%;
   margin-left: 13%;
+  box-shadow: 4px 4px 1px #5c5a5a;
 }
 
 .main-content-header,
@@ -65,6 +66,10 @@ body {
   letter-spacing: 1.5px;
 }
 
+.hoofdstukken-overview > h2 {
+  font-size: 1.2em;
+}
+
 .content-header-image,
 .hoofdstuk-header-image {
   position: relative;
@@ -74,14 +79,6 @@ body {
   width: 100%;
   max-width: 100px;
   max-height: 100px;
-}
-
-.hoofdstuk-header-image {
-  left: 35%;
-  -webkit-transform: translateY(80%);
-  transform: translateY(80%);
-  max-width: 90px;
-  max-height: 90px;
 }
 
 .main-content-text,
@@ -122,6 +119,14 @@ body {
   .main-content {
     text-align: justify;
   }
+
+  .hoofdstuk-header-image {
+    left: 40%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+    max-width: 80px;
+    max-height: 80px;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -137,6 +142,14 @@ body {
     -webkit-transform: translateY(90%);
     transform: translateY(90%);
     width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .hoofdstuk-header-image {
+    left: 45%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
     max-width: 80px;
     max-height: 80px;
   }
@@ -158,6 +171,14 @@ body {
     max-width: 80px;
     max-height: 80px;
   }
+
+  .hoofdstuk-header-image {
+    left: 38%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+    max-width: 80px;
+    max-height: 80px;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -175,6 +196,14 @@ body {
 
   .main-content {
     font-size: 1.2em;
+  }
+
+  .hoofdstuk-header-image {
+    left: 40%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+    max-width: 80px;
+    max-height: 80px;
   }
 }
 
@@ -215,7 +244,11 @@ body {
     height: 120px;
   }
 
-
-
-
+  .hoofdstuk-header-image {
+    left: 37%;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+    max-width: 80px;
+    max-height: 80px;
+  }
 }
